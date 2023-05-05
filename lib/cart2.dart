@@ -87,7 +87,6 @@ class _Cart2PageState extends State<Cart2Page> {
                           },
                           ),
                         ),
-
                       ],
                     )
                 ),
@@ -125,7 +124,6 @@ class _Cart2PageState extends State<Cart2Page> {
                             Text("18" , style: TextStyle(fontSize: 20,color: Colors.brown ,)),
                           ],
                         ),
-
                         Image.asset("images/shose.png" , width: 70,height: 70,),
                         Expanded(
                           child: CheckboxListTile(value:flag3 , onChanged: (value) {
@@ -135,7 +133,6 @@ class _Cart2PageState extends State<Cart2Page> {
                           },
                           ),
                         ),
-
                       ],
                     )
                 ),
@@ -173,7 +170,6 @@ class _Cart2PageState extends State<Cart2Page> {
                             Text("18" , style: TextStyle(fontSize: 20,color: Colors.brown ,)),
                           ],
                         ),
-
                         Image.asset("images/shose.png" , width: 70,height: 70,),
                         Expanded(
                           child: CheckboxListTile(value:flag4 , onChanged: (value) {
@@ -183,13 +179,10 @@ class _Cart2PageState extends State<Cart2Page> {
                           },
                           ),
                         ),
-
                       ],
                     )
                 ),
-
                 SizedBox(height:100,),
-
                 Divider(
                   color: Colors.grey,
                   thickness: 1,
@@ -215,15 +208,10 @@ class _Cart2PageState extends State<Cart2Page> {
                       )
                   ),
                 ),
-
-
               ],
             ),
-
           ],
         ),
-
-
 
       bottomNavigationBar: BottomNavigationBar(
         onTap: (value) {

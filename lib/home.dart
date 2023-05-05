@@ -19,7 +19,6 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color(0xffFFFDFA),
-      // extendBodyBehindAppBar:true ,
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0 ,
@@ -180,80 +179,8 @@ class _HomePageState extends State<HomePage> {
                       ],
                     );
 
-                    //   Card(
-                    //   color: Colors.white,
-                    //   margin: EdgeInsets.all(2),
-                    //   elevation:0 ,
-                    //   shape: RoundedRectangleBorder(
-                    //       borderRadius: BorderRadius.circular((5)),
-                    //       side: BorderSide(
-                    //           color: Colors.blue,
-                    //           width: 1,
-                    //           style: BorderStyle.solid
-                    //       )
-                    //   ),
-                    //   child: Column(
-                    //     mainAxisAlignment: MainAxisAlignment.center,
-                    //
-                    //     children: [
-                    //       Image(image: images[index] ,width: 1,height: 1,),
-                    //      // Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW1p196FdFnjs53-qod0Iv6TbQwPWf3M4yZTRbJHH9KQ&s",width: 180,height: 130,),
-                    //       Text(s[index], style: TextStyle(fontSize: 18,fontWeight: FontWeight.w500), textDirection: TextDirection.rtl),
-                    //       Container(
-                    //         width: 200,
-                    //
-                    //         color: Color(0xff0E1B8F),
-                    //         alignment: AlignmentDirectional.center,
-                    //         child: Text(n[index],style: TextStyle(color: Colors.white,fontSize: 20)),
-                    //       ),
-                    //     ],
-                    //   ),
-                    // );
                   }),
             ),
-
-
-
-
-
-
-
-
-            // Row(
-            //   mainAxisAlignment: MainAxisAlignment.end,
-            //   children: [
-            //     Padding(
-            //       padding: const EdgeInsets.all(2),
-            //       child: CircleAvatar(
-            //         radius: 5,
-            //         backgroundColor: selectedIndex == 0?Colors.black:Colors.grey,
-            //       ),
-            //     ),
-            //     Padding(
-            //       padding: const EdgeInsets.all(2),
-            //       child: CircleAvatar(
-            //         radius: 5,
-            //         backgroundColor: selectedIndex == 1?Colors.black:Colors.grey,
-            //       ),
-            //     ),
-            //     Padding(
-            //       padding: const EdgeInsets.all(2),
-            //       child: CircleAvatar(
-            //         radius: 5,
-            //         backgroundColor: selectedIndex == 2?Colors.black:Colors.grey,
-            //       ),
-            //     ),
-            //     Padding(
-            //       padding: const EdgeInsets.all(2),
-            //       child: CircleAvatar(
-            //         radius: 5,
-            //         backgroundColor: selectedIndex == 2?Colors.black:Colors.grey,
-            //       ),
-            //     ),
-            //   ],
-            // ),
-
-
           ],
         ),
 

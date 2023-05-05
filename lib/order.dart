@@ -100,9 +100,6 @@ class _OrderPageState extends State<OrderPage> {
                         ],
                       ),
                       Image.asset("images/shose.png" , width: 70,height: 70,),
-
-
-
                     ],
                   )
               ),
@@ -141,9 +138,6 @@ class _OrderPageState extends State<OrderPage> {
                         ],
                       ),
                       Image.asset("images/shose.png" , width: 70,height: 70,),
-
-
-
                     ],
                   )
               ),
@@ -152,7 +146,6 @@ class _OrderPageState extends State<OrderPage> {
                 children: [
                   Text("36" , style: TextStyle(fontSize: 20,color: Colors.grey ,),),
                   Text("تكلفة الشراء" , style: TextStyle(fontSize: 20,color: Colors.grey ,),),
-
                 ],
               ),
               Row(
@@ -160,7 +153,6 @@ class _OrderPageState extends State<OrderPage> {
                 children: [
                   Text("5" , style: TextStyle(fontSize: 20,color: Colors.grey ,),),
                   Text("تكلف الشحن" , style: TextStyle(fontSize: 20,color: Colors.grey ,),),
-
                 ],
               ),
               Row(
@@ -168,7 +160,6 @@ class _OrderPageState extends State<OrderPage> {
                 children: [
                   Text("1.5" , style: TextStyle(fontSize: 20,color: Colors.grey ,),),
                   Text("ضرائب" , style: TextStyle(fontSize: 20,color: Colors.grey ,),),
-
                 ],
               ),
               Divider(
@@ -180,7 +171,6 @@ class _OrderPageState extends State<OrderPage> {
                 children: [
                   Text("42.5" , style: TextStyle(fontSize: 20,color: Colors.black ,fontWeight: FontWeight.bold,),),
                   Text("التكلفة النهائية" , style: TextStyle(fontSize: 20,color: Colors.black ,fontWeight: FontWeight.bold),),
-
                 ],
               ),
               SizedBox(height: 5,),
@@ -212,32 +202,9 @@ class _OrderPageState extends State<OrderPage> {
                       ),
                     ),
                     SizedBox(height: 20,)
-
-
-
-
                   ],
                 ),
               )
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             ],
           )
         ],

@@ -40,7 +40,6 @@ class _CartPageState extends State<CartPage> {
                color: Colors.black,
                //fontWeight: FontWeight.bold,
                  fontSize: 20
-
              ),),
            ],
          ),
@@ -48,7 +47,6 @@ class _CartPageState extends State<CartPage> {
          Column(
            children: [
              TextField(
-
                textAlign: TextAlign.center,
                decoration: InputDecoration(
                    fillColor: Colors.brown,
