@@ -30,8 +30,11 @@ class _CartPageState extends State<CartPage> {
        padding: EdgeInsets.only(left: 20,right: 20),
        children: [
          Text("00 منتج" , style: TextStyle(fontSize: 20,color: Colors.grey ,),textDirection: TextDirection.rtl,),
-         SizedBox(height: 10,),
-         Image(image: AssetImage("images/img_1.png"), width: 300,height: 400, ),
+         SizedBox(height: 20,),
+         Padding(
+           padding: const EdgeInsets.only(left: 50),
+           child: Image(image: AssetImage("images/img_1.png"), width: 400,height: 350, ),
+         ),
          SizedBox(height: 15,),
          Column(
            mainAxisAlignment: MainAxisAlignment.center,
@@ -43,23 +46,39 @@ class _CartPageState extends State<CartPage> {
              ),),
            ],
          ),
-         SizedBox(height: 30,),
-         Column(
-           children: [
-             TextField(
-               textAlign: TextAlign.center,
-               decoration: InputDecoration(
-                   fillColor: Colors.brown,
-                   filled: true,
-                   hintText: 'اذهب للتسوق الأن',
-                   hintStyle: TextStyle(color: Colors.white , fontSize: 20,fontWeight: FontWeight.bold),
-                   border: OutlineInputBorder(
-                       borderRadius: BorderRadius.circular(50),
-                       borderSide: BorderSide(color: Colors.brown,style: BorderStyle.solid)
-                   )
-               ),
-             ),
-           ],
+         SizedBox(height: 10,),
+         // Column(
+         //   children: [
+         //     // TextField(
+         //     //   textAlign: TextAlign.center,
+         //     //   decoration: InputDecoration(
+         //     //       fillColor: Colors.brown,
+         //     //       filled: true,
+         //     //       hintText: 'اذهب للتسوق الأن',
+         //     //       hintStyle: TextStyle(color: Colors.white , fontSize: 20,fontWeight: FontWeight.bold),
+         //     //       border: OutlineInputBorder(
+         //     //           borderRadius: BorderRadius.circular(50),
+         //     //           borderSide: BorderSide(color: Colors.brown,style: BorderStyle.solid)
+         //     //       )
+         //     //   ),
+         //     // ),
+         //     OutlinedButton.styleFrom()
+         //   ],
+         // ),
+         Padding(
+           padding:  EdgeInsets.all(8.0),
+           child: OutlinedButton(onPressed: (){},
+               child: Text(" اذهب للتسوق الان ",style: TextStyle(
+                 color: Colors.white,
+                 fontFamily: "avenir" ,
+               ),),style:
+               OutlinedButton.styleFrom(
+                 backgroundColor: Colors.brown ,
+                 padding:  EdgeInsets.fromLTRB(50,5,50,5) ,
+                 shape: RoundedRectangleBorder(
+                     borderRadius: BorderRadius.circular(20)
+                 ),
+               )),
          ),
        ],
      ),

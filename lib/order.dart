@@ -80,7 +80,7 @@ class _OrderPageState extends State<OrderPage> {
                             children: [
                               Text("+" , style: TextStyle(fontSize: 25,backgroundColor: Colors.brown,color: Colors.white),),
                               Text("1" , style: TextStyle(fontSize: 20,color: Colors.black , fontWeight: FontWeight.bold),),
-                              Text("-" , style: TextStyle(fontSize: 25,backgroundColor: Colors.orange[100],color: Colors.white),),
+                              Text("--" , style: TextStyle(fontSize: 25,backgroundColor: Colors.orange[100],color: Colors.white),),
                             ],
                           ),
                         ],
@@ -118,7 +118,7 @@ class _OrderPageState extends State<OrderPage> {
                             children: [
                               Text("+" , style: TextStyle(fontSize: 25,backgroundColor: Colors.brown,color: Colors.white),),
                               Text("1" , style: TextStyle(fontSize: 20,color: Colors.black , fontWeight: FontWeight.bold),),
-                              Text("-" , style: TextStyle(fontSize: 25,backgroundColor: Colors.orange[100],color: Colors.white),),
+                              Text("--" , style: TextStyle(fontSize: 25,backgroundColor: Colors.orange[100],color: Colors.white),),
                             ],
                           ),
                         ],

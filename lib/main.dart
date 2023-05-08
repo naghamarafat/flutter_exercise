@@ -18,12 +18,13 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        fontFamily: "avenir"
       ),
       home:
-        Cart2Page()
-     //CartPage()
-      //OrderPage(),
-     // HomePage(),
+       // Cart2Page()
+     CartPage()
+     // OrderPage(),
+      //HomePage(),
     );
   }
 }
